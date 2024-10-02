@@ -96,6 +96,7 @@ namespace BankomatNoStatic
                 case 0: //return
                     break;
                 case 1: //deposit -> 
+                    Console.Clear();
                     Console.WriteLine("How much money do you want to deposit?");
                     Bank.BankAccounts.ElementAt(indexNumber).SetMoney(FrontEnd.InputInt());
                     break;
